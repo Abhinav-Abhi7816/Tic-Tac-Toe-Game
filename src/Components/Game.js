@@ -101,7 +101,7 @@ function Game() {
 
     return (
         <div className='relative'>
-            <nav className='text-3xl sm:text-5xl sm:p-4 font-semibold p-3 fixed bg-blue-500 text-white w-[100%]' style={{ boxShadow: "2px 4px 20px grey" }}>
+            <nav className='text-3xl sm:text-5xl sm:p-4 font-semibold text-center p-3 fixed bg-blue-500 text-white w-[100%]' style={{ boxShadow: "2px 4px 20px grey" }}>
                 <h1>Tic Tac Toe</h1>
             </nav>
             <div className='flex flex-col pt-16 px-2 justify-center place-items-center bg-blue-100 h-screen '>
